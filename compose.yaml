@@ -1,0 +1,7 @@
+services:
+  seren-lowy-software-consultant-homepage:
+    build: 
+      context: .
+    image: seren-lowy-software-consultant-homepage
+    ports:
+      - 5174:5173
